@@ -99,7 +99,7 @@ function displayException(data) {
     results += `<div>Error text: <strong>${data.error}</strong></div>`
 
     document.getElementById("resultsModalTitle").innerText = heading;
-    document.getElementById("results=content").innerHTML = results;
+    document.getElementById("results-content").innerHTML = results;
 
     resultsModal.show();    
 }
